@@ -1,0 +1,167 @@
+.logo-size {
+    width: 2.5rem;
+}
+
+.f-size-2 {
+    font-size: 2rem;
+}
+
+.bg-yellow {
+    background-color: #fcd232;
+}
+
+.bg-red {
+    background-color: #ff1300;
+}
+
+.bg-dark-custom {
+    background-color: #302f38!important;
+}
+
+
+.modal-content {
+    border: none!important;
+    border-radius: 0!important;
+}
+
+.modal-header {
+    border-bottom: none!important;
+}
+
+.hire-btn:hover {
+    background-color: #b40c00;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./img/profesi-developer.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    background-attachment: fixed;
+}
+
+
+.banner-text {
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    animation: move 2s linear;
+  }
+
+@keyframes move {
+    0% {
+        font-size: 6rem;
+    }
+
+    50% {
+        font-size: 2rem;
+    }
+    
+    100% {
+        font-size: 6rem;
+    }
+}
+
+.filters >*:not(:last-child) {
+    border-right: 1px solid grey;
+}
+    
+.filters label:hover {
+    cursor: pointer;
+    }  
+
+.filters i {
+    font-size: 2rem;
+    display: none;
+}
+
+.filters >div {
+    background-color: #302f38;
+    color: white;
+}
+
+.filters >div.selected {
+    background-color: #eb3b3b;
+    color: black;
+}
+
+.filters >div.selected i {
+    display: block;
+}
+
+
+.filters >div:hover {
+    background-color: #57565f;
+}
+
+.filters i {
+    color: black;
+}
+
+
+
+
+.card {
+    border: none!important;
+    width: 100%!important;
+    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.44);
+}
+
+.card:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 40px -1px rgba(0, 0, 0, 0.44);
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+.date-tag {
+    font-size: 0.8rem;
+}
+
+.heading {
+    font-size: 3rem;
+}
+
+.form-section {
+    min-height: calc(100vh - 153px);
+}
+
+.employment-navbar {
+    box-shadow: 0px -30px 50px;
+}
+
+/* Media */
+
+@media (max-width: 426px) {
+    .banner p {
+        font-size: 3rem;
+    }
+    
+}
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 100%!important;
+        margin: 0!important;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .filters >*:not(:last-child) {
+        border-bottom: 1px solid grey;
+    }
+    
+}
+
+
+
+
+
+
+
