@@ -1,0 +1,105 @@
+body {
+    position: relative;
+    padding-top: 54px;
+    padding-left: 170px;
+    min-height: 100vh;
+}
+
+#top-navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #01579b;;
+    color: white;
+}
+
+#left-navbar {
+    position: absolute;
+    width: 170px;
+    top: 54px;
+    left: 0;
+    bottom: 0;
+}
+
+.li-links:hover {
+    background-color: #85898d;
+}
+
+.active {
+    background-color: #85898d;
+}
+
+
+.link:hover {
+    border-color: rgb(66, 66, 197)!important;
+}
+
+.fas{
+    font-size: 2rem;
+}
+
+.card-1{
+    color: white;
+    background: hsl(0, 66%, 38%);
+}
+
+.card-1:hover{
+    background: hsl(0, 66%, 58%);
+}
+
+.card-2 {
+    color: white;
+    background: hsl(328, 81%, 29%);
+}
+
+.card-2:hover {
+    background: hsl(328, 81%, 49%);
+}
+
+.card-3 {
+    color: white;
+    background: hsl(267, 75%, 31%);
+}
+
+.card-3:hover{
+    background: hsl(267, 75%, 51%);;
+}
+
+.card-4 {
+    color: white;
+    background: hsl(251, 69%, 34%);
+}
+
+.card-4:hover {
+    background: hsl(251, 69%, 54%);
+}
+
+.card-5 {
+    color: white;
+    background: hsl(235, 66%, 30%);
+}
+
+.card-5:hover {
+    background: hsl(235, 66%, 50%);
+}
+
+.card-6 {
+    color: white;
+    background: hsl(216, 85%, 34%);
+}
+
+.card-6:hover {
+    background: hsl(216, 85%, 54%);
+}
+
+.card-7 {
+    color: white;
+    background: hsl(206, 99%, 31%);
+}
+
+.card-7:hover {
+    background: hsl(206, 99%, 51%);
+}
+
+
